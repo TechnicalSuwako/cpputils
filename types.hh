@@ -1,4 +1,5 @@
-#pragma once
+#ifndef TYPES_HH
+#define TYPES_HH
 
 #include <cstdint>
 #include <string>
@@ -19,3 +20,4 @@ typedef void * any;
 
 using std::string;
 using std::vector;
+#endif // TYPES_HH
